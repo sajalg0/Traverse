@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Pacifico', cursive;
+}
+body{
+	overflow-x: hidden;
+	min-height: 100vh;
+	text-align: center;
+}
+.nav
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10000;
+	
+	
+}
+.nav h1{
+	position:absolute;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Rock Salt', cursive;
+	left:10px;
+	top:10px;
+}
+
+.div1{
+	position:absolute;
+	color: black;
+	font-size: 50px;
+	text-transform: uppercase;
+	top: 300px;
+	left:20px;
+	font-family: 'Trade Winds', cursive;
+}
+.z{
+	position:absolute;
+	color: black;
+	font-size: 60px;
+	text-transform: uppercase;
+	top: 400px;	
+	left:20px;
+	font-family: 'Trade Winds', cursive;
+}
+.nav ul
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav ul li
+{
+	list-style: none;
+	margin-right: 20px;
+}
+.nav ul li a
+{
+	position:relative;
+	text-decoration: none;
+	padding: 8px 10px;
+	color: #2e2e2e;
+	border-radius: 20px;
+	font-size: 20px;
+	font-family: 'Mate SC', serif;
+	left: 780px;
+	top:15px;
+}
+.nav img{
+	position:absolute;
+	left:1450px;
+}
+.active1:hover
+{
+	background-color:crimson;
+	color:white
+}
+.gallery {
+	background: linear-gradient(#E5E8E8,white);
+	position: absolute;
+	float: left;
+	top:780px;
+}
+.g{
+	width:90%;
+	margin:auto;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap:20px;
+	border-radius:10px;
+}
+
+.g img{
+	width: 100%;
+	height:100%;
+	border-radius:10px;
+}
+.a:hover{
+	height:105%;
+	width:105%;
+}
+.b:hover{
+	height:105%;
+	width:105%;
+}
+.c:hover{
+	height:105%;
+	width:105%;
+}
+.d:hover{
+	height:105%;
+	width:105%;
+}
+.e:hover{
+	height:105%;
+	width:105%;
+}
+.f:hover{
+	height:105%;
+	width:105%;
+}
+.m:hover{
+	height:105%;
+	width:105%;
+}
+.h:hover{
+	height:105%;
+	width:105%;
+}
+.i:hover{
+	height:105%;
+	width:105%;
+}
+.j:hover{
+	height:105%;
+	width:105%;
+}
+.k:hover{
+	height:105%;
+	width:105%;
+}
+.l:hover{
+	height:105%;
+	width:105%;
+}
+
+.popular{
+	position: absolute;
+  margin: 0px;
+  top:1700px;
+  padding-left:3px;
+  background: linear-gradient(white,#E8F8F5);
+}
+.popular h1{
+	color:black;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 35px;
+}
+.button1{
+	  padding: 16px 110px;
+	  cursor: pointer;
+	  text-decoration: none;
+	display: inline;
+	color: black;
+	font-size: 1.2em;
+	font-weight: 300;
+	letter-spacing: 1px;
+	background-color:white;
+	font-family:'Poppins', sans-serif;
+	border:0px;
+}
+.button1:hover{
+	background-color:#E5E8E8;
+	color:black;
+}
+.pop{
+	background-color:#223b3d;
+}
+
+.wrapper{
+	font-family:VNFGothamBook,Helvetica,Arial,sans-serif;
+	position:absolute;
+	top:2250px;
+	color:black;
+	width:100%;
+}
+.contact{
+	position:absolute;
+	top:2780px;
+	font-family: 'Benne', serif;
+	background-color:#2a3542;
+	width:100%;
+	height:150px;
+}
+.contact h1{
+	position:relative;
+	left:-600px;
+	top:20px;
+	font-family: 'Benne', serif;
+	color:white;
+}
+.contact i{
+	position:relative;
+	left:700px;
+	top:-50px;
+}
+
+
+

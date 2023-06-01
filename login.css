@@ -1,0 +1,83 @@
+	@import url('https://fonts.googleapis.com/css2?family=Allura&family=Rajdhani:wght@500&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("login_admin.jpg");
+	height:100%;
+	width:100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	font-family: FontAwesome;
+	
+}
+.container
+{
+	
+	border-radius: 30px;
+    width: 450px;
+    height: 560px;
+    text-align: center;
+    margin :0 auto;
+    background-color: rgba(240,240,240,0.7);
+    margin-top: 70px;
+
+
+}
+.container img
+{
+	width: 150px;
+	height: 150px;
+	margin-top: -60px;
+}
+input[type="text"],input[type="password"]
+{
+	border-radius: 20px;
+	margin-top: 30px;
+	height: 30px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 10px;
+	outline:none;
+	font-family: 'Rajdhani', sans-serif;
+}
+.t:focus
+		{
+			outline: none;
+		}
+.btn-login
+{
+	padding: 10px 25px;
+	border: none;
+	font-size: 18px;
+	outline: none;
+	border-radius: 20px;
+	background-color: #27ae60;
+	color: #fff;
+	width: 150px;
+	height:40px;
+	cursor:pointer;
+
+}
+.p-align
+{
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 20px;
+	color: black;
+}
+a:hover
+{
+	color: red;
+}
+#p11
+{
+	width: 100%;
+	background-color: red;
+}

@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css);
+
+
+body {
+  background: #f1f2f7;
+  font-family: "Open Sans", arial, sans-serif;
+  color: darkslategray;
+}
+
+.warn {
+  color: red;
+}
+header[role="banner"] h1 {
+  margin: 0;
+  font-weight: 300;
+  padding: 1rem;
+}
+header[role="banner"] h1:before {
+  content: "\f248";
+  font-family: FontAwesome;
+  padding-right: 0.6em;
+  color: black;
+}
+
+
+header[role="banner"] .utilities li a {
+  padding: 1.5em;
+  display: block;
+}
+
+/* header */
+.utilities a:before {
+  content: "\f248";
+  font-family: FontAwesome;
+  padding-right: 0.6em;
+}
+
+.logout a:before {
+  content: "";
+}
+
+.users a:before {
+  content: "";
+}
+
+nav[role="navigation"] {
+  background: #2a3542;
+  color: #ddd;
+  margin:-10px;
+}
+nav[role="navigation"] li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  
+}
+nav[role="navigation"] li a {
+  color: #ddd;
+  text-decoration: none;
+  display: block;
+  padding: 0.7em;
+}
+nav[role="navigation"] li a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+nav[role="navigation"] li a:before {
+  content: "\f248";
+  font-family: FontAwesome;
+  padding-right: 0.6em;
+}
+nav[role="navigation"] .dashboard a:before {
+  content: "";
+}
+nav[role="navigation"] .write a:before {
+  content: "";
+}
+nav[role="navigation"] .edit a:before {
+  content: "";
+}
+nav[role="navigation"] .comments a:before {
+  content: "";
+}
+nav[role="navigation"] .users a:before {
+  content: "";
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+main li {
+  position: relative;
+  padding-left: 1.2em;
+  margin: 0.5em 0;
+}
+main li:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0;
+  top: 0.3em;
+  border-left: solid 10px #dde;
+  border-top: solid 5px transparent;
+  border-bottom: solid 5px transparent;
+}
+  header[role="banner"] {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    height: 75px;
+	
+  }
+  header[role="banner"] .utilities {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    color: darkslategray;
+    width: auto;
+  }
+
+
+  
+
+  
+
+
+  
